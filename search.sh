@@ -3,7 +3,7 @@ $ updatedb
 #search
 # locate позволяет организовать поиск файлов и директорий
 $ locate *.h 
-# регистронезависимый поиск
+# -i --ignore-case
 $ locate -i
 # grep позволяет организовать поиск информации в составе файлов
 $ grep any_text file.txt
